@@ -12,10 +12,10 @@ export class AppComponent {
   }
   title = 'angular-bytebank';
 
-  transferir($event: any){
-    console.log($event);
-    // const transferencia = {...$event, data: new Date()}
-    // this.transferencias.push(transferencia);
-    this.service.adicionar($event);
-  }
+  // transferir($event: any){
+  //   console.log($event);
+  //   // const transferencia = {...$event, data: new Date()}
+  //   // this.transferencias.push(transferencia);
+  //   this.service.adicionar($event);
+  // }
 }
